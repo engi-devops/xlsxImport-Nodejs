@@ -1,0 +1,37 @@
+{
+  "name": "aipxperts-interview",
+  "version": "1.0.0",
+  "description": "Nodejs interview with expressjs and MongoDB",
+  "main": ".src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development nodemon src/index.js --exec babel-node --ignore client"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "Es6"
+  ],
+  "author": "santosh-singh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "exceljs": "^4.1.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "mongoose-timestamp": "^0.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "xlsx": "^0.16.8"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/preset-env": "^7.10.3"
+  }
+}
